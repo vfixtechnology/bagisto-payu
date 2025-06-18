@@ -9,6 +9,7 @@ use Webkul\Sales\Repositories\OrderRepository;
 use Webkul\Sales\Transformers\OrderResource;
 use Webkul\Sales\Repositories\InvoiceRepository;
 use Illuminate\Support\Facades\Config;
+use App\Http\Controllers\Controller;
 
 class PayuController extends Controller
 {
